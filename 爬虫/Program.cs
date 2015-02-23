@@ -65,6 +65,7 @@ namespace ConsoleApplication1
                     
                     Console.WriteLine("[" + num.ToString() + "]" + temp);
                     sw2.WriteLine("[" + num.ToString() + "]" + temp);
+                    op_getCode1(temp,num);
                     client.DownloadFile(temp, "D:\\download" + num.ToString() + ".html");
                     num++;
                     //find1 = find1 + find2 + find3 + find4;
@@ -75,6 +76,85 @@ namespace ConsoleApplication1
             sw2.Close();
             strm.Close();
             Console.Read();
+        }
+
+        private static bool op_getCode1(string temp,int num)
+        {
+            System.Net.WebClient client = new WebClient();
+            Stream strm = client.OpenRead(temp);
+            StreamReader sr = new StreamReader(strm);
+            StreamWriter sw = new StreamWriter("D:\\op_getCode1_["+num.ToString()+"]过程.txt");
+            StreamWriter sw2 = new StreamWriter("D:\\op_getCode1_[" + num.ToString() + "]结果.txt");
+            string line;
+            
+            while ((line = sr.ReadLine()) != null)
+            {
+               if(line.IndexOf("<body")!=-1)break;
+            }
+
+            int find1 = -1;
+            do{
+                sw.WriteLine("1: " + line);
+                find1 = line.IndexOf("#include");
+                if (find1 != -1) break;
+            } while ((line = sr.ReadLine()) != null);
+            if (find1 == -1)
+            {
+                sw.Close();
+                sw2.Close();
+                strm.Close();
+                return false;
+            }
+        
+            int find2 = -1;
+            do{
+                sw.WriteLine("2: " + line);
+                find2 = line.Substring(find1).IndexOf("main");
+                if (find2 != -1) break;
+                find1 = 0;
+            } while ((line = sr.ReadLine()) != null);
+            if (find2 == -1)
+            {
+                sw.Close();
+                sw2.Close();
+                strm.Close();
+                return false;
+            }
+    
+            int proc_num = 0;
+            string temp2;
+            bool ok = false;
+            do{
+                sw.WriteLine("3: " + line);
+                temp2 = line.Substring(find1 + find2);
+                for (int i = 0; i < temp2.Length; i++)
+                {
+                    if (temp2[i] == '{') proc_num++;
+                    else if (temp2[i] == '}')
+                    {
+                        proc_num--;
+                        if (proc_num <= 0)
+                        {
+                            ok = true;
+                            break;
+                        }
+                    }
+                }
+                if (ok) break;
+                find1 = find2 = 0;
+            } while ((line = sr.ReadLine()) != null);
+            if (proc_num == -1)
+            {
+                sw.Close();
+                sw2.Close();
+                strm.Close();
+                return false;
+            }
+
+            sw.Close();
+            sw2.Close();
+            strm.Close();
+            return true;
         }
     }
 }
