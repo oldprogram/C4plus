@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Net;
 using System.Text.RegularExpressions;
-
-
 namespace ConsoleApplication1
 {
     class Program
@@ -15,7 +13,11 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             System.Net.WebClient client = new WebClient();
-            Stream strm = client.OpenRead("http://www.baidu.com/s?word=hdu%201097&pn=0");
+            //1101、1105搜不到答案
+            //1110去掉行号
+            //1112 #39; '
+            //dfs(x\num,y\num,step+1);  将/n换成了\n
+            Stream strm = client.OpenRead("http://www.baidu.com/s?word=zoj%201101&pn=0");
             StreamReader sr = new StreamReader(strm);
             string line;
             StreamWriter sw = new StreamWriter("D:\\过程.txt");
@@ -41,7 +43,6 @@ namespace ConsoleApplication1
                         find1 = 0;
                     } while ((line = sr.ReadLine()) != null);
                     if (find2 == -1) break;
-
                     int find3 = -1;
                     do
                     {
@@ -51,7 +52,6 @@ namespace ConsoleApplication1
                         find1 = find2 = 0;
                     } while ((line = sr.ReadLine()) != null);
                     if (find3 == -1) break;
-
                     int find4 = -1;
                     string temp = "";
                     do
@@ -63,55 +63,73 @@ namespace ConsoleApplication1
                         find1 = find2 = find3 = 0;
                     } while ((line = sr.ReadLine()) != null);
                     if (find4 == -1) break;
-
                     temp += line.Substring(find1 + find2 + find3 + 8, find4);
-
                     Console.WriteLine("[" + num.ToString() + "]" + temp);
                     sw2.WriteLine("[" + num.ToString() + "]" + temp);
                     op_getCode1(temp, num);
                     op_getCode2(num);
-                    client.DownloadFile(temp, "D:\\download" + num.ToString() + ".html");
+                    //client.DownloadFile(temp, "D:\\download" + num.ToString() + ".html");
                     num++;
                     //find1 = find1 + find2 + find3 + find4;
                 }
             }
-
             sw.Close();
             sw2.Close();
             strm.Close();
             Console.Read();
         }
 
+        private static bool have_num = false;
         private static bool op_getCode1(string temp, int num)
         {
             System.Net.WebClient client = new WebClient();
-            Stream strm = client.OpenRead(temp);
+            Stream strm = null;
+            try
+            {
+                strm = client.OpenRead(temp);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.GetBaseException());
+                return false;
+            }
             StreamReader sr = new StreamReader(strm);
-            StreamWriter sw = new StreamWriter("D:\\op_getCode1_["+num.ToString()+"]过程.txt");
-           // StreamWriter sw2 = new StreamWriter("D:\\op_getCode1_[" + num.ToString() + "]结果.txt");
+            StreamWriter sw = new StreamWriter("D:\\op_getCode1_[" + num.ToString() + "]过程.txt");
+            // StreamWriter sw2 = new StreamWriter("D:\\op_getCode1_[" + num.ToString() + "]结果.txt");
             string line;
-            
             while ((line = sr.ReadLine()) != null)
             {
-               if(line.IndexOf("<body")!=-1)break;
+                if (line.IndexOf("<body") != -1) break;
             }
-
             int find1 = -1;
-            do{
+            do
+            {
                 find1 = line.IndexOf("#include");
                 if (find1 != -1) break;
             } while ((line = sr.ReadLine()) != null);
             if (find1 == -1)
             {
                 sw.Close();
-            //    sw2.Close();
+                // sw2.Close();
                 strm.Close();
                 return false;
             }
-        
+            if (find1 > 2)//判断代码前面是否有数字
+            {
+                string may_num = line.Substring(find1 - 3, 2);
+                for (int i = 0; i < 2; i++)
+                {
+                    if (may_num[i] < '0' || may_num[i] > '9')
+                    {
+                        have_num = false;
+                        break;
+                    }
+                }
+            }
             int find2 = -1;
-            do{
-                sw.WriteLine(line);
+            do
+            {
+                sw.WriteLine(line.Substring(find1));
                 find2 = line.Substring(find1).IndexOf("main");
                 if (find2 != -1) break;
                 find1 = 0;
@@ -119,17 +137,17 @@ namespace ConsoleApplication1
             if (find2 == -1)
             {
                 sw.Close();
-              //  sw2.Close();
+                // sw2.Close();
                 strm.Close();
                 return false;
             }
-    
             int proc_num = 0;
             string temp2;
             bool ok = false;
             bool first = true;
-            do{
-                if (first)first = false;
+            do
+            {
+                if (first) first = false;
                 else sw.WriteLine(line);//防止重复
                 temp2 = line.Substring(find1 + find2);
                 for (int i = 0; i < temp2.Length; i++)
@@ -155,16 +173,14 @@ namespace ConsoleApplication1
                 strm.Close();
                 return false;
             }
-
             sw.Close();
-          //  sw2.Close();
+            // sw2.Close();
             strm.Close();
             return true;
         }
-
         private static void op_getCode2(int num)
         {
-            FileStream fs = new FileStream("D:\\op_getCode1_[" + num.ToString() + "]过程.txt",FileMode.Open,FileAccess.Read,FileShare.None);
+            FileStream fs = new FileStream("D:\\op_getCode1_[" + num.ToString() + "]过程.txt", FileMode.Open, FileAccess.Read, FileShare.None);
             StreamReader sr = new StreamReader(fs);
             StreamWriter sw = new StreamWriter("D:\\op_getCode2_[" + num.ToString() + "]结果.txt");
             string line;
@@ -172,6 +188,8 @@ namespace ConsoleApplication1
             while ((line = sr.ReadLine()) != null)
             {
                 string code = "";
+                if (have_num == true) line = line.Substring(3);
+                line = line.Replace("<br />", "\n");
                 for (int i = 0; i < line.Length; i++)
                 {
                     if (line[i] == '<')
@@ -192,13 +210,14 @@ namespace ConsoleApplication1
                 code = code.Replace("&quot;", "\"");
                 code = code.Replace("&nbsp;", " ");
                 code = code.Replace("&amp;", "&");
+                code = code.Replace("&#43;", "+");
+                code = code.Replace("&#39;", "'");
+                code = code.Replace("/n", "\\n");
                 sw.WriteLine(code);
                 Console.WriteLine(code);
             }
             sw.Close();
             sr.Close();
         }
-   
-
     }
 }
