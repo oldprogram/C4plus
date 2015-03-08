@@ -25,7 +25,7 @@ namespace find10link
                 StreamReader sr = new StreamReader(strm);
                 string line;
                 StreamWriter sw = new StreamWriter("results.txt");
-                int num = 1;
+                int num = 0;
                 int find1 = -1;
                 while ((line = sr.ReadLine()) != null)
                 {
@@ -70,7 +70,8 @@ namespace find10link
                 }
                 sw.Close();
                 strm.Close();
-            }catch(Exception e){}
+            }
+            catch (Exception e) { }
         }
     }
 }
