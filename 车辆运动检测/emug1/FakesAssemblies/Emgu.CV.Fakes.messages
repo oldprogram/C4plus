@@ -1,0 +1,334 @@
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvInvoke 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CameraCalibration 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Quaternions 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.RotationMatrix2D`1 生成存根: type Emgu.CV.RotationMatrix2D`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Bgr 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Bgra 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.ColorInfoAttribute 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.DisplayColorAttribute 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Gray 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Hls 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Hsv 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Lab 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Luv 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Rgb 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Rgba 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Xyz 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Ycc 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Seq`1 生成存根: type Emgu.CV.Seq`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Contour`1 生成存根: type Emgu.CV.Contour`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Cvb.CvBlob 生成存根: 类型没有系列可见的构造函数。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Cvb.CvTrack 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.IDescriptorExtractor`1 生成存根: type Emgu.CV.Features2D.IDescriptorExtractor`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.DistanceType 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.BruteForceMatcher`1 生成存根: type Emgu.CV.Features2D.BruteForceMatcher`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.Features2DExtensions 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.Features2DTracker`1 生成存根: type Emgu.CV.Features2D.Features2DTracker`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.Features2DToolbox 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.ImageFeature`1 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.LDetector 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.PatchGenerator 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.RTreeClassifier`1 生成存根: type Emgu.CV.Features2D.RTreeClassifier`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Flann.CenterInitType 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Geodetic.GeodeticCoordinate 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Image`2 生成存根: type Emgu.CV.Image`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.ImageConstants 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Map`2 生成存根: type Emgu.CV.Map`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.OpticalFlow 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.NORM_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.REDUCE_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.REDUCE_DIMENSION 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CMP_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.APPROX_POLY_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CAP_PROP 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CHAIN_APPROX_METHOD 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.COLOR_CONVERSION 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FILTER_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FONT 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.GEMM_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HOUGH_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.INPAINT_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.INTER 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SMOOTH_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.LOAD_IMAGE_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.MAT_DEPTH 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.RAND_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.RETR_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SeqConst 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_ELTYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_KIND 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_FLAG 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.TERMCRIT 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.THRESH 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.TM_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.IPL_DEPTH 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FLIP 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CHECK_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FLOODFILL_FLAG 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CONNECTIVITY 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.LINE_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.DIST_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.MUL_SPECTRUMS_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_DXT 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_DCT_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_FM 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.GENERAL 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.ERROR_CODES 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.WARP 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.ADAPTIVE_THRESHOLD_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_ELEMENT_SHAPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.PCA_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_MORPH_OP 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HIST_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SOLVE_METHOD 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.COVAR_METHOD 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SVD_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.LKFLOW_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CALIB_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CALIB_CB_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.EIGOBJ_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_NEXT_EDGE_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.ORIENTATION 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STEREO_BM_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STEREO_BM_PREFILTER 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HOMOGRAPHY_METHOD 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CONTOURS_MATCH_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.Subdiv2DPointLocationType 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STEREO_RECTIFY_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BORDER_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HAAR_DETECTION_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BACK_OR_FRONT 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.MATCH_CONTOUR_TREE_METHOD 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STORAGE_OP 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOB_DETECTOR_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOBTRACKER_MS_PROFILE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOBTRACKER_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOB_POST_PROCESS_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HISTOGRAM_COMP_METHOD 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BG_STAT_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FORGROUND_DETECTOR_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.OPTICALFLOW_FARNEBACK_FLAG 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.GRABCUT_INIT_TYPE 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CaptureType 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.KMeansInitType 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Cuboid 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvAvgComp 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBGCodeBookModel 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBGStatModel 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBlob 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBlobTrackerAutoParam1 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBlobTrackerParamLH 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBlobTrackerParamMS 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvBox2D 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvChain 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvConDensation 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvConnectedComp 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvContour 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvConvexityDefect 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvFGDStatModelParams 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvFont 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvGaussBGStatModelParams 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvHistogram 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvHuMoments 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvKalman 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvMat 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvMatND 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvMoments 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvMSERParams 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvObjectDetection 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvPoint2D64f 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvPoint3D32f 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvPoint3D64f 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvQuadEdge2D 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvScalar 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSeq 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSeqBlock 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSeqReader 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSet 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSetElem 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSlice 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvStarDetectorParams 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvStarKeypoint 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvStereoBMState 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvStereoGCState 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSubdiv2D 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSubdiv2DEdge 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSubdiv2DPoint 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSURFParams 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvSURFPoint 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MCvTermCriteria 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MDMatch 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MIplImage 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.MKeyPoint 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.RangeF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.LineSegment2D 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.LineSegment2DF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.LineSegment3DF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.PointCollection 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Properties.StringTable 生成存根: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Reflection.ExposableMethodAttribute 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Reflection.ReflectColorType 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Reflection.ReflectIImage 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.CircleF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Cross2DF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Ellipse 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Triangle2DF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Structure.Triangle3DF 生成存根: 类型是一个值类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Tiff.TiffWriter`2 生成存根: type Emgu.CV.Tiff.TiffWriter`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Tiff.TIFFInvoke 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Tiff.TileTiffWriter`2 生成存根: type Emgu.CV.Tiff.TileTiffWriter`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.TimedImage`2 生成存根: type Emgu.CV.TimedImage`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.CvToolbox 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.DataLoggerHelper 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.StructSize 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.ZlibCompression 生成存根: 类型已密封。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.IBGFGDetector`1 生成存根: type Emgu.CV.VideoSurveillance.IBGFGDetector`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BGCodeBookModel`1 生成存根: type Emgu.CV.VideoSurveillance.BGCodeBookModel`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BGStatModel`1 生成存根: type Emgu.CV.VideoSurveillance.BGStatModel`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BlobTrackerAuto`1 生成存根: type Emgu.CV.VideoSurveillance.BlobTrackerAuto`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BlobTrackerAutoParam`1 生成存根: type Emgu.CV.VideoSurveillance.BlobTrackerAutoParam`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.FGDetector`1 生成存根: type Emgu.CV.VideoSurveillance.FGDetector`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 <PrivateImplementationDetails>{B69B2675-C8DD-4E66-91BD-AA1C9D83F410} 生成存根: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.AdaptiveSkinDetector+MorphingMethod 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvInvoke+CvAllocFunc 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvInvoke+CvDistanceFunction 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvInvoke+CvErrorCallback 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvInvoke+CvFreeFunc 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 正在跳过 method Emgu.CV.Image`2<!!0,!!1> Emgu.CV.IntrinsicCameraParameters.Undistort(Emgu.CV.Image`2<!!0,!!1> src)，method Emgu.CV.Image`2<!!0,!!1> Emgu.CV.IntrinsicCameraParameters.Undistort(Emgu.CV.Image`2<!!0,!!1> src) unstubbable: 不受支持的约束类型
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.RotationMatrix2D`1 生成填充码: type Emgu.CV.RotationMatrix2D`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.IDuplexCapture 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.ICapture 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Capture+CaptureModuleType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Capture+GrabEventHandler 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.IDuplexCaptureCallback 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.KinectCapture+ImageGeneratorOutputMode 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.KinectCapture+OpenNIDataType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.IColor 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.DisplayColorAttribute 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Seq`1 生成填充码: type Emgu.CV.Seq`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Contour`1 生成填充码: type Emgu.CV.Contour`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Cvb.CvBlobDetector+BlobColor 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Cvb.CvBlobDetector+BlobRenderType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Cvb.CvBlobs+<GetEnumerator>d__0 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Cvb.CvTracks+<GetEnumerator>d__0 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.EigenObjectRecognizer+<>c__DisplayClassc 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.IDescriptorExtractor`1 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.DistanceType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.BruteForceMatcher`1 生成填充码: type Emgu.CV.Features2D.BruteForceMatcher`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.IKeyPointDetector 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 正在跳过 method Emgu.CV.Features2D.ImageFeature`1<!!0>[] Emgu.CV.Features2D.Features2DExtensions.ComputeDescriptors(Emgu.CV.Features2D.IDescriptorExtractor`1<!!0> extractor, Emgu.CV.Image`2<Emgu.CV.Structure.Gray,System.Byte> image, Emgu.CV.Image`2<Emgu.CV.Structure.Gray,System.Byte> mask, Emgu.CV.Structure.MKeyPoint[] keyPoints)，method Emgu.CV.Features2D.ImageFeature`1<!!0>[] Emgu.CV.Features2D.Features2DExtensions.ComputeDescriptors(Emgu.CV.Features2D.IDescriptorExtractor`1<!!0> extractor, Emgu.CV.Image`2<Emgu.CV.Structure.Gray,System.Byte> image, Emgu.CV.Image`2<Emgu.CV.Structure.Gray,System.Byte> mask, Emgu.CV.Structure.MKeyPoint[] keyPoints) unstubbable: 不受支持的约束类型
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.Features2DTracker`1 生成填充码: type Emgu.CV.Features2D.Features2DTracker`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 正在跳过 method Emgu.CV.Image`2<Emgu.CV.Structure.Bgr,System.Byte> Emgu.CV.Features2D.Features2DToolbox.DrawKeypoints(Emgu.CV.Image`2<!!0,System.Byte> image, Emgu.CV.Util.VectorOfKeyPoint keypoints, Emgu.CV.Structure.Bgr color, Emgu.CV.Features2D.Features2DToolbox+KeypointDrawType type)，method Emgu.CV.Image`2<Emgu.CV.Structure.Bgr,System.Byte> Emgu.CV.Features2D.Features2DToolbox.DrawKeypoints(Emgu.CV.Image`2<!!0,System.Byte> image, Emgu.CV.Util.VectorOfKeyPoint keypoints, Emgu.CV.Structure.Bgr color, Emgu.CV.Features2D.Features2DToolbox+KeypointDrawType type) unstubbable: 不受支持的约束类型
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 正在跳过 method Emgu.CV.Image`2<Emgu.CV.Structure.Bgr,System.Byte> Emgu.CV.Features2D.Features2DToolbox.DrawMatches(Emgu.CV.Image`2<!!0,System.Byte> modelImage, Emgu.CV.Util.VectorOfKeyPoint modelKeypoints, Emgu.CV.Image`2<!!0,System.Byte> observerdImage, Emgu.CV.Util.VectorOfKeyPoint observedKeyPoints, Emgu.CV.Matrix`1<System.Int32> matchIndices, Emgu.CV.Structure.Bgr matchColor, Emgu.CV.Structure.Bgr singlePointColor, Emgu.CV.Matrix`1<System.Byte> matchesMask, Emgu.CV.Features2D.Features2DToolbox+KeypointDrawType flags)，method Emgu.CV.Image`2<Emgu.CV.Structure.Bgr,System.Byte> Emgu.CV.Features2D.Features2DToolbox.DrawMatches(Emgu.CV.Image`2<!!0,System.Byte> modelImage, Emgu.CV.Util.VectorOfKeyPoint modelKeypoints, Emgu.CV.Image`2<!!0,System.Byte> observerdImage, Emgu.CV.Util.VectorOfKeyPoint observedKeyPoints, Emgu.CV.Matrix`1<System.Int32> matchIndices, Emgu.CV.Structure.Bgr matchColor, Emgu.CV.Structure.Bgr singlePointColor, Emgu.CV.Matrix`1<System.Byte> matchesMask, Emgu.CV.Features2D.Features2DToolbox+KeypointDrawType flags) unstubbable: 不受支持的约束类型
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.Features2DToolbox+KeypointDrawType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.ImageFeature`1 生成填充码: type Emgu.CV.Features2D.ImageFeature`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.ORBDetector+ScoreType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Features2D.RTreeClassifier`1 生成填充码: type Emgu.CV.Features2D.RTreeClassifier`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Flann.CenterInitType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.IImage 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Image`2 生成填充码: type Emgu.CV.Image`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.ImageConstants 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Map`2 生成填充码: type Emgu.CV.Map`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.NORM_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.REDUCE_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.REDUCE_DIMENSION 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CMP_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.APPROX_POLY_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CAP_PROP 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CHAIN_APPROX_METHOD 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.COLOR_CONVERSION 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FILTER_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FONT 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.GEMM_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HOUGH_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.INPAINT_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.INTER 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SMOOTH_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.LOAD_IMAGE_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.MAT_DEPTH 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.RAND_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.RETR_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SeqConst 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_ELTYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_KIND 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_FLAG 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SEQ_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.TERMCRIT 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.THRESH 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.TM_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.IPL_DEPTH 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FLIP 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CHECK_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FLOODFILL_FLAG 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CONNECTIVITY 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.LINE_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.DIST_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.MUL_SPECTRUMS_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_DXT 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_DCT_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_FM 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.GENERAL 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.ERROR_CODES 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.WARP 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.ADAPTIVE_THRESHOLD_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_ELEMENT_SHAPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.PCA_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_MORPH_OP 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HIST_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SOLVE_METHOD 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.COVAR_METHOD 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.SVD_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.LKFLOW_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CALIB_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CALIB_CB_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.EIGOBJ_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CV_NEXT_EDGE_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.ORIENTATION 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STEREO_BM_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STEREO_BM_PREFILTER 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HOMOGRAPHY_METHOD 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CONTOURS_MATCH_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.Subdiv2DPointLocationType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STEREO_RECTIFY_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BORDER_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HAAR_DETECTION_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BACK_OR_FRONT 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.MATCH_CONTOUR_TREE_METHOD 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.STORAGE_OP 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOB_DETECTOR_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOBTRACKER_MS_PROFILE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOBTRACKER_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BLOB_POST_PROCESS_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.HISTOGRAM_COMP_METHOD 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.BG_STAT_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.FORGROUND_DETECTOR_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.OPTICALFLOW_FARNEBACK_FLAG 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.GRABCUT_INIT_TYPE 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.CaptureType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.CvEnum.KMeansInitType 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.IConvexPolygonF 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.PlanarSubdivision+<GetEnumerator>d__d 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.PlanarSubdivision+<GetVoronoiFacetsHelper>d__0 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Properties.StringTable 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Reflection.ReflectIImage+<GetImageMethods>d__0 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Retina+ColorSamplingMethod 生成填充码: 类型是一个枚举。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.IConvexPolygon 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Tiff.TiffWriter`2 生成填充码: type Emgu.CV.Tiff.TiffWriter`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Tiff.TIFFInvoke 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Tiff.TileTiffWriter`2 生成填充码: type Emgu.CV.Tiff.TileTiffWriter`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.TimedImage`2 生成填充码: type Emgu.CV.TimedImage`2 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 正在跳过 method Emgu.CV.Matrix`1<!!0> Emgu.CV.Util.CvToolbox.GetMatrixFromDescriptors(!!0[][] descriptors)，method Emgu.CV.Matrix`1<!!0> Emgu.CV.Util.CvToolbox.GetMatrixFromDescriptors(!!0[][] descriptors) unstubbable: 不受支持的约束类型
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.DataLogger+DataCallbackHandler 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.DataLogger`1+DataCallbackHandler 生成填充码: 类型是一个委托。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.DataLoggerHelper 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.Util.ZlibCompression 生成填充码: 类型对 exported or assembly(Emgu.CV.Fakes) 不可见。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.IBGFGDetector`1 生成填充码: 类型是一个接口。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BGCodeBookModel`1 生成填充码: type Emgu.CV.VideoSurveillance.BGCodeBookModel`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BGStatModel`1 生成填充码: type Emgu.CV.VideoSurveillance.BGStatModel`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BlobSeqBase+<GetEnumerator>d__0 生成填充码: 类型不受支持，因为存在于内部限制。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BlobTrackerAuto`1 生成填充码: type Emgu.CV.VideoSurveillance.BlobTrackerAuto`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.BlobTrackerAutoParam`1 生成填充码: type Emgu.CV.VideoSurveillance.BlobTrackerAutoParam`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 Emgu.CV.VideoSurveillance.FGDetector`1 生成填充码: type Emgu.CV.VideoSurveillance.FGDetector`1 unstubbable: 不受支持的约束类型。
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 正在跳过 method System.Void Emgu.CV.VideoWriter.WriteFrame(Emgu.CV.Image`2<!!0,!!1> frame)，method System.Void Emgu.CV.VideoWriter.WriteFrame(Emgu.CV.Image`2<!!0,!!1> frame) unstubbable: 不受支持的约束类型
+C:\Users\LiTao\Desktop\视频截图\emug1\Fakes\Emgu.CV.fakes : warning : 无法为 <PrivateImplementationDetails>{B69B2675-C8DD-4E66-91BD-AA1C9D83F410} 生成填充码: 类型不受支持，因为存在于内部限制。
