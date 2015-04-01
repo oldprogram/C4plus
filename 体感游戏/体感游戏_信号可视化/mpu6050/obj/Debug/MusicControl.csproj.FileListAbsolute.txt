@@ -1,0 +1,36 @@
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\bin\Debug\MusicControl.exe.config
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\bin\Debug\MusicControl.exe
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\bin\Debug\MusicControl.pdb
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\obj\Debug\MusicControl.Form1.resources
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\obj\Debug\MusicControl.Properties.Resources.resources
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\obj\Debug\MusicControl.csproj.GenerateResource.Cache
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\obj\Debug\MusicControl.exe
+c:\users\litao\documents\visual studio 2012\Projects\MusicControl\MusicControl\obj\Debug\MusicControl.pdb
+C:\Users\LiTao\documents\visual studio 2012\Projects\MusicControl\MusicControl\obj\Debug\MusicControl.csprojResolveAssemblyReference.cache
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\bin\Debug\MusicControl.exe.config
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\obj\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\obj\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\bin\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\bin\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\obj\Debug\MusicControl.csprojResolveAssemblyReference.cache
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\obj\Debug\MusicControl.Form1.resources
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\obj\Debug\MusicControl.Properties.Resources.resources
+C:\Users\LiTao\Desktop\MusicControl\MusicControl\obj\Debug\MusicControl.csproj.GenerateResource.Cache
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\bin\Debug\MusicControl.exe.config
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\bin\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\bin\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.csprojResolveAssemblyReference.cache
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.Form1.resources
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.Properties.Resources.resources
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.csproj.GenerateResource.Cache
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\bin\Debug\MusicControl.exe.config
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\bin\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\bin\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.csprojResolveAssemblyReference.cache
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.Form1.resources
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.Properties.Resources.resources
+C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.csproj.GenerateResource.Cache
