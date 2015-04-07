@@ -1,8 +1,8 @@
-ï»¿//****************************************
-// MPU6050 IICæµ‹è¯•ç¨‹åº
-// ä½¿ç”¨å•ç‰‡æœºSTC89C51 
-// æ™¶æŒ¯ï¼š11.0592M
-//****************************************
+//-----------------------------------------
+// MPU6050 IIC²âÊÔ³ÌĞò
+// Ê¹ÓÃµ¥Æ¬»úSTC89C51 
+// ¾§Õñ£º11.0592M
+//-----------------------------------------
 #include <REG52.H>	
 #include <math.h>    //Keil library  
 #include <stdio.h>   //Keil library	
@@ -10,53 +10,28 @@ typedef unsigned char  uchar;
 typedef unsigned short ushort;
 typedef unsigned int   uint;
 
-//****************************************
-//å®šä¹‰ç±»å‹åŠå˜é‡
-//****************************************
-uchar dis[6];							//æ˜¾ç¤ºæ•°å­—(-511è‡³512)çš„å­—ç¬¦æ•°ç»„
-int	dis_data;						//å˜é‡
-//****************************************
-//å‡½æ•°å£°æ˜
-//****************************************
-void  delay(unsigned int k);										//å»¶æ—¶						
-void  lcd_printf(uchar *s,int temp_data);
-int GetData(uchar REG_Address);
-void InitMPU6050();
+//-----------------------------------------
+//¶¨ÒåÀàĞÍ¼°±äÁ¿
+//-----------------------------------------
+uchar dis[6];//´æ·ÅÕûÊı×ªÎª×Ö·û´®µÄ×Ö·û´®
 
-//****************************************
-//æ•´æ•°è½¬å­—ç¬¦ä¸²
-//****************************************
-void lcd_printf(uchar *s,int temp_data)
-{
-	if(temp_data<0)
-	{
-		temp_data=-temp_data;
-		*s='-';
-	}
-	else *s=' ';
+//-----------------------------------------
+//Íâ²¿º¯Êı:´®¿ÚºÍMPU6050
+//-----------------------------------------
+extern void InitMPU6050();
+extern int GetData(uchar REG_Address);
+extern void init_uart();	
+extern void  SeriPushSend(uchar send_data);
+//-----------------------------------------
+//ÄÚ²¿º¯Êı:ÑÓÊ±¡¢ÕûÊı×ª×Ö·û´®¡¢·¢ËÍµ½´®¿Ú
+//-----------------------------------------
+void delay(unsigned int k);
+void my_printf(uchar *s,int temp_data);
+void SendData(int value);
 
-	*++s =temp_data/10000+0x30;
-	temp_data=temp_data%10000;     //å–ä½™è¿ç®—
-
-	*++s =temp_data/1000+0x30;
-	temp_data=temp_data%1000;     //å–ä½™è¿ç®—
-
-	*++s =temp_data/100+0x30;
-	temp_data=temp_data%100;     //å–ä½™è¿ç®—
-	*++s =temp_data/10+0x30;
-	temp_data=temp_data%10;      //å–ä½™è¿ç®—
-	*++s =temp_data+0x30; 	
-}
-//****************************************
-
-void  SeriPushSend(uchar send_data)
-{
-    SBUF=send_data;  
-	while(!TI);TI=0;	  
-}
-//****************************************
-//å»¶æ—¶
-//****************************************
+//-----------------------------------------
+//ÑÓÊ±
+//-----------------------------------------
 void delay(unsigned int k)	
 {						
 	unsigned int i,j;				
@@ -65,62 +40,56 @@ void delay(unsigned int k)
 		for(j=0;j<121;j++);
 	}						
 }
-
-
-
-//**************************************
-//ç¼–ç +å‘é€åˆ°ä¸²å£
-//**************************************
+//-----------------------------------------
+//ÕûÊı×ª×Ö·û´®
+//-----------------------------------------
+void my_printf(uchar *s,int temp_data)
+{
+	if(temp_data<0)
+	{
+		temp_data=-temp_data;
+		*s='-';
+	}
+	else *s=' ';
+	*++s =temp_data/10000+0x30;
+	temp_data=temp_data%10000;     //È¡ÓàÔËËã
+	*++s =temp_data/1000+0x30;
+	temp_data=temp_data%1000;     //È¡ÓàÔËËã
+	*++s =temp_data/100+0x30;
+	temp_data=temp_data%100;     //È¡ÓàÔËËã
+	*++s =temp_data/10+0x30;
+	temp_data=temp_data%10;      //È¡ÓàÔËËã
+	*++s =temp_data+0x30; 	
+}
+//-----------------------------------------
+//±àÂë+·¢ËÍµ½´®¿Ú
+//-----------------------------------------
 void SendData(int value)
 { 
 	uchar i;
-	lcd_printf(dis, value);			//è½¬æ¢æ•°æ®æ˜¾ç¤º
+	my_printf(dis, value);			//×ª»»Êı¾İÏÔÊ¾
 	for(i=0;i<6;i++)
 	{
-    SeriPushSend(dis[i]);
+    	SeriPushSend(dis[i]);
     }
 }
 
-
-void init_uart()
-{
-	TMOD=0x21;				
-	TH1=0xfd;				
-	TL1=0xfd;		
-		
-	SCON=0x50;
-	PS=1;      //ä¸²å£ä¸­æ–­è®¾ä¸ºé«˜ä¼˜å…ˆçº§åˆ«
-	TR0=1;	   //å¯åŠ¨å®šæ—¶å™¨			
-	TR1=1;
-	ET0=1;     //æ‰“å¼€å®šæ—¶å™¨0ä¸­æ–­			
-	ES=1;	
-	EA=1;
-}
-
-//*********************************************************
-//ä¸»ç¨‹åº
-//*********************************************************
+//-----------------------------------------
+//Ö÷³ÌĞò
+//-----------------------------------------
 void main()
 { 
-//int X,Y,Z;
-	delay(500);		//ä¸Šç”µå»¶æ—¶		
+	delay(500);		//ÉÏµçÑÓÊ±		
 	init_uart();
-	InitMPU6050();	//åˆå§‹åŒ–MPU6050
+	InitMPU6050();	//³õÊ¼»¯MPU6050
 	delay(150);
 	while(1)
 	{
-		SeriPushSend('#');//æ¢è¡Œï¼Œå›è½¦
-//		X=GetData(0x3B)/100;
-//		Y=GetData(0x3D)/100;
-//		Z=GetData(0x3F)/100;
-//		SendData(X*X+Y*Y+Z*Z);
-		SendData(GetData(0x3B));	//Xè½´åŠ é€Ÿåº¦
-		SendData(GetData(0x3D));	//Yè½´åŠ é€Ÿåº¦
-		SendData(GetData(0x3F));	//Zè½´åŠ é€Ÿåº¦
-//		Display10BitData(GetData(GYRO_XOUT_H),2,1);	//æ˜¾ç¤ºXè½´è§’é€Ÿåº¦
-//		Display10BitData(GetData(GYRO_YOUT_H),7,1);	//æ˜¾ç¤ºYè½´è§’é€Ÿåº¦
-//		Display10BitData(GetData(GYRO_ZOUT_H),12,1);	//æ˜¾ç¤ºZè½´è§’é€Ÿåº¦
-		SeriPushSend('$'); //ç»“æŸ
+		SeriPushSend('#');//»»ĞĞ£¬»Ø³µ
+		SendData(GetData(0x3B));	//XÖá¼ÓËÙ¶È
+		SendData(GetData(0x3D));	//YÖá¼ÓËÙ¶È
+		SendData(GetData(0x3F));	//ZÖá¼ÓËÙ¶È
+		SeriPushSend('$'); //½áÊø
 		delay(20);
 	}
 }
