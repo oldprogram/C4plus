@@ -43,6 +43,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.T1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btn_save = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,11 +156,22 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "op_time:";
             // 
+            // btn_save
+            // 
+            this.btn_save.Location = new System.Drawing.Point(625, 0);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(41, 23);
+            this.btn_save.TabIndex = 17;
+            this.btn_save.Text = "save";
+            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(668, 430);
+            this.Controls.Add(this.btn_save);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.T1);
             this.Controls.Add(this.label3);
@@ -198,6 +210,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox T1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_save;
     }
 }
 

@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="boolean.cs" />
+    <Compile Include="Date\DatePool.cs" />
     <Compile Include="Draw\DrawLineChar.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

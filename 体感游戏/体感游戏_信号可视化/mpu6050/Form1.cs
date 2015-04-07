@@ -12,26 +12,32 @@ using System.IO.Ports;               //端口
 using System.Text.RegularExpressions;//正则表达式
 using System.Runtime.InteropServices;
 using System.Drawing.Drawing2D;
-using MusicControl.Draw;//控制DllImport()。。。。
+using MusicControl.Draw;
+using MusicControl.Date;//控制DllImport()。。。。
 
 namespace MusicControl
 {
     public partial class Form1 : Form
     {
-        public DrawLineChart chart;
-        public List<int> P;
-        public List<int> Q;
-        public List<int> R;
+        public DrawLineChart chart;//绘制折线图
+        public List<int> P;//存放数据X轴加速度
+        public List<int> Q;//存放数据Y轴加速度
+        public List<int> R;//存放数据Z轴加速度
+
+        public DatePool datepool;//数据池
+
+
         public Form1()
         {
             InitializeComponent();
-            chart = new DrawLineChart(20,0,400,300,10,10);
+            //折线图初始化
+            chart = new DrawLineChart(20,0,450,300,10,300);
             P = new List<int>();
-            for (int i = 0; i < 20; i++) P.Add(i * 10);
             Q = new List<int>();
-            for (int i = 0; i < 20; i++) Q.Add(i * 10);
             R = new List<int>();
-            for (int i = 0; i < 20; i++) R.Add(i * 10);
+            //数据池初始化
+            datepool = new DatePool(100000);
+
             //Get all port list for selection
             //获得所有的端口列表，并显示在列表内
             PortList.Items.Clear();
@@ -69,81 +75,59 @@ namespace MusicControl
 
         //接收串口数据
         int data_X, data_Y, data_Z;
-        bool getData = false;
         string getString = "";
         int length = 20;
+       
         private void PortDataReceived(object o, SerialDataReceivedEventArgs e)
-        { 
+        {
             byte[] data = new byte[length];
-            Connection.Read(data, 0, length);
-            if (length == 1)
-            {
-                if (data[0] == '$') length = 20;
-                return;
-            }
-            if (data[0] != '#' || data[length - 1] != '$')
-            {
-                length = 1;
-                return;
-            }
-            time1 = DateTime.Now;
-            data_X = 0;
-            for(int i=2;i<7;i++)
-            {
-                data_X *= 10;
-                data_X += (data[i] - '0');
-            }
-            if (data[1] == '-') data_X = -data_X;
-            data_Y = 0;
-            for (int i = 8; i < 13; i++)
-            {
-                data_Y *= 10;
-                data_Y += (data[i] - '0');
-            }
-            if (data[7] == '-') data_Y = -data_Y;
-            data_Z = 0;
-            for (int i = 14; i < 19; i++)
-            {
-                data_Z *= 10;
-                data_Z += (data[i] - '0');
-            }
-            if (data[13] == '-') data_Z = -data_Z;
-            getString = System.Text.Encoding.Default.GetString(data);
-            getData = true;
+            int num=Connection.Read(data, 0, length);
+            datepool.push_back(data,num);//实际接收的不一定是length，之前一直错
+            Connection.DiscardInBuffer();
+            Connection.DiscardOutBuffer();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (getData == false) return;
-            getData = false;
-            time2 = DateTime.Now;
-            T1.Text = (time2 - time1).Milliseconds.ToString();
-            //time1 = DateTime.Now;
-            //从得到新的date到重新绘制折线图完毕低于1ms
-            //下面是用来测试的，原本一直为0，我以为计算时差的写错了呢
-            //int n = 400000;
-            //for (int i = 0; i < n; i++)
-            //    for (int j = 0; j < 100; j++) ;
+            if(!datepool.ask())return;
+            getString = System.Text.Encoding.Default.GetString(datepool.str);
+            data_X = datepool.X;
+            data_Y = datepool.Y;
+            data_Z = datepool.Z;
             X.Text = data_X.ToString();
             Y.Text = data_Y.ToString();
             Z.Text = data_Z.ToString();
             listBox1.Items.Add(getString);
             listBox1.SelectedIndex = listBox1.Items.Count - 1;
-            P.Add(data_X / 140);
-            Q.Add(data_Y / 140);
-            R.Add(data_Z / 140);
-            //http://zhidao.baidu.com/link?url=d2NlgPajuMD2mxJfWMp9-Ry6lXkX7G9_yKRCk6Iq7aN_4c7cETZRCdLFQcajRIS6v7qqHdpPKGK-Z6ljo52VrbUbWtA57o1PTYVnXQiAeam
+            P.Add(data_X / 260);
+            Q.Add(data_Y / 260);
+            R.Add(data_Z / 260);
+            time1 = DateTime.Now;
+            ////http://zhidao.baidu.com/link?url=d2NlgPajuMD2mxJfWMp9-Ry6lXkX7G9_yKRCk6Iq7aN_4c7cETZRCdLFQcajRIS6v7qqHdpPKGK-Z6ljo52VrbUbWtA57o1PTYVnXQiAeam
             pictureBox1.Refresh();//先执行refresh()进行picture重绘，然后执行下一句
+            time2 = DateTime.Now;
         }
 
+        TimeSpan spend1, spend2, spend3;
         DateTime time1, time2;
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
-            ////chart.DrawLineChar(sender, e, Q);
+            
+            //////chart.DrawLineChar(sender, e, Q);
             chart.Draw3LineChar(sender, e, P, Q, R);
-            //T1.Text += "2";
-            //time2 = DateTime.Now;
-            //T1.Text = (time2-time1).Milliseconds.ToString();
+            
+           
+            spend1 = time1 - time2;
+            T1.Text = spend1.Milliseconds.ToString();
+        }
+
+        int cutPic_num = 0;
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            Bitmap bit = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+            pictureBox1.DrawToBitmap(bit, pictureBox1.ClientRectangle);
+            bit.Save("Picture"+cutPic_num++.ToString()+".bmp", System.Drawing.Imaging.ImageFormat.Bmp);
+            bit.Dispose();
         }
     }
 }

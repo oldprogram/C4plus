@@ -6,3 +6,12 @@ C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\ob
 C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\mpu6050.csproj.GenerateResource.Cache
 C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.exe
 C:\Users\LiTao\Desktop\体感游戏\体感游戏_信号可视化\MusicControl\obj\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\bin\Debug\MusicControl.exe.config
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\bin\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\bin\Debug\MusicControl.pdb
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\obj\Debug\mpu6050.csprojResolveAssemblyReference.cache
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\obj\Debug\MusicControl.Form1.resources
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\obj\Debug\MusicControl.Properties.Resources.resources
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\obj\Debug\mpu6050.csproj.GenerateResource.Cache
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\obj\Debug\MusicControl.exe
+C:\Users\LiTao\Desktop\体感游戏_信号可视化\mpu6050\obj\Debug\MusicControl.pdb
